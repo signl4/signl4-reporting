@@ -5,19 +5,19 @@ SIGNL4 provides you with reporting data for on-call times as well as for alerts.
 Here you can see some sample data:
 
 AlertAuditReport.csv
-
+```
 Timestamp,EventId,EventType,AlertId,UserId,UserMail,Content,Price,Duration
 2018-09-14T15:21:06.9508401Z,e507fdc2-1bd3-4f28-bdee-7653001c0f66,Alert_New,2518653623330491598_9456e190-5f85-43a4-b6f6-7cfa831f3d4e,,,,0.00,
 2018-09-14T15:27:17.5749352Z,5b91bc1a-093f-467e-8a6c-4ddc3e412291,Alert_Confirmed,2518653623330491598_9456e190-5f85-43a4-b6f6-7cfa831f3d4e,1082a885-7541-4615-b3ae-6ef7660b834e,anna@derdack.com,,0.00,0
 2018-09-14T15:33:44.2164155Z,0145c84a-ac51-488b-bd63-2034d90542e4,Alert_New,2518653615757835844_ce525f29-a231-48cc-8f59-37f0ed7f95f2,,,,0.00,
-
+```
 ShiftReport.csv
-
+```
 Name;Email;Start;End;Hours
 Anna;anna@derdack.com;2018-09-14T15:21:02.0743200Z;2018-09-14T17:31:44.4990010Z;2:10
 John;john@derdack.com;2018-09-19T07:51:45.4039920Z;2018-09-19T07:52:29.5466015Z;0:0
 John;john@derdack.com;2018-09-19T07:52:58.9672917Z;2018-09-19T08:51:01.8244028Z;0:58
-
+```
 You can now process these files from within your reporting tools, for example for accounting. The following example shows how you can generate some nice reports in Microsoft Excel. Here are some examples:
 
 AlertAuditReport
