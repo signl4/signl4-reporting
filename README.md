@@ -37,4 +37,10 @@ The general idea here is the following:
 
 Getting the above diagrams from the raw files might be quite some effort. We provide an Excel file with all the functions and diagrams as shown above. You can take the file SIGNL4-Reporting.xls and adapt it to your needs.
 
+With this Excel file you can add your CSV date in the following way:
+1. Open the file SIGNL4-Reporting.xls and point to your .csv files. In order to do so go to Data -> Queries & Connections and then double-click AlertAuditReport on the right-hand side. The Power Query Editor opens. Here go to Home -> Advanced Editor. In the text box you can see the path to the .csv file. Adapt this one to match the path to your AlertAuditReport .csv file. Then click Done and Save & Load to close the Power Query Editor. Do the same for SiftReport as well.
+2. Back in the main Excel window click Data -> Refresh All. This will update the report accordingly.
+3. You might want to adapt the reports with the information you need. If you have large data sets you can also add additional rows by copy and paste in the Sheets AlertHelper and ShiftHelper.
+4. That is it and your reports are available in the Sheets Alerts and Shifts. You can print them or export them as PDF.
+
 A similar approach is possible with Google Sheets as well.
