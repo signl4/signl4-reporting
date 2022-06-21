@@ -6,10 +6,11 @@ Here you can see some sample data:
 
 AlertAuditReport.csv
 ```
-Timestamp,EventId,EventType,AlertId,UserId,UserMail,Content,Price,Duration
-2018-09-14T15:21:06.9508401Z,e507fdc2-1bd3-4f28-bdee-7653001c0f66,Alert_New,2518653623330491598_9456e190-5f85-43a4-b6f6-7cfa831f3d4e,,,,0.00,
-2018-09-14T15:27:17.5749352Z,5b91bc1a-093f-467e-8a6c-4ddc3e412291,Alert_Confirmed,2518653623330491598_9456e190-5f85-43a4-b6f6-7cfa831f3d4e,1082a885-7541-4615-b3ae-6ef7660b834e,anna@derdack.com,,0.00,0
-2018-09-14T15:33:44.2164155Z,0145c84a-ac51-488b-bd63-2034d90542e4,Alert_New,2518653615757835844_ce525f29-a231-48cc-8f59-37f0ed7f95f2,,,,0.00,
+Timestamp;LogId;EventType;AlertId;EventId;UserId;UserMail;Content;Price;Duration in seconds
+2022-05-01T02:34:33.9293685Z;4f7ebe1a-7583-4012-b51b-75e0c3428427;Alert_New;2517509283260706314_c6afef71-a0b6-498f-805b-ada00f015e04;2517509283261971850_86b3d931-4570-478d-b2b0-a4d383cecccc;;;"Heartbeat Missing | Heartbeat missing for 2 hours, 19 seconds.";0.00;0
+2022-05-01T02:48:05.6914856Z;a888e8e7-01c8-419a-aa94-cab52eccd947;Alert_New;2517509275143085143_98296b8b-1d47-4b2f-a848-e4b8c7055874;2517509275144092918_09bbe7e6-097c-4d45-83bb-706f84c2badc;;;[FIRING:1]  (Data Alert Value1 g1njkfLMk A) | **Firing**  Value: [no value] Labels:  - alertname = Data Alert  - Key1 = Value1  - datasource_uid = g1njkfLMk  - ref_id = A Annotations: Source: https://ronlab.grafana.net/alerting/grafana/OzBXIKbnz/view Silence: https://ronlab.grafana.net/alerting/silence/new?alertmanager=grafana&matcher=Key1%3DValue1&matcher=alertname%3DData+Alert&matcher=datasource_uid%3Dg1njkfLMk&matcher=ref_id%3DA Dashbo...;0.00;0
+2022-05-01T03:05:22.4059209Z;a3b924c5-fedf-4bd5-a8e4-a578a7d0c45f;Alert_Closed;2517509283260706314_c6afef71-a0b6-498f-805b-ada00f015e04;2517509283261971850_86b3d931-4570-478d-b2b0-a4d383cecccc;00000000-0000-0000-0000-000000000000;system@signl4.com;;0.00;0
+2022-05-01T06:00:58.8668607Z;d85f4729-92a2-4f01-8116-77200fa8fc8b;Alert_New;2517509159411331392_05e834eb-d0e3-458b-85df-a06f35b94746;2517509159413040997_dea243e0-4c8b-484f-bd01-37d118d1fbc2;;;Daily Weather;0.00;0
 ```
 ShiftReport.csv
 ```
